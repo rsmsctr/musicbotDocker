@@ -13,20 +13,24 @@ Steps to get this music bot running within a docker container
 
 2.) run "git clone https://github.com/rapiddd/musicbotDocker" in your terminal
 
+    -git clone https://github.com/rapiddd/musicbotDocker
 
 3.) CD to the directory of the project you just downloaded 
 
 
 4.) edit the config file with your favorite text editor and enter in your bot token and your user ID
 
-    -to create your bot and find its token please follow the instructions jagrosh created here - https://jmusicbot.com/getting-a-bot-token/
-    -to find your user ID please follow the instructions jagrosh created here - https://jmusicbot.com/finding-your-user-id/
+-to create your bot and find its token please follow the instructions jagrosh created here - https://jmusicbot.com/getting-a-bot-token/
+-to find your user ID please follow the instructions jagrosh created here - https://jmusicbot.com/finding-your-user-id/
     
     
 5.) once the config file is modified and saved, run "docker build -t imagename ." in the terminal
 
+    -docker build -t imagename .
 
 6.) run "docker run -d imagename" in the terminal
+
+    -docker run -d imagename
 
 That's it! The container is now running the application. No ports are needed as it needs no inbound traffic.
 If you want to invite your newly created bot, please resume the documentation jagrosh created here -
