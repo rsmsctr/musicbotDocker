@@ -20,9 +20,9 @@ Steps to get this music bot running within a docker container
 
 4.) edit the config file with your favorite text editor and enter in your bot token and your user ID
 
-    to create your bot and find its token please follow the instructions jagrosh created here
+   to create your bot and find its token please follow the instructions jagrosh created here
         https://jmusicbot.com/getting-a-bot-token/
-    to find your user ID please follow the instructions jagrosh created here
+   to find your user ID please follow the instructions jagrosh created here
         https://jmusicbot.com/finding-your-user-id/
     
     
