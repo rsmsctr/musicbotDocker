@@ -11,7 +11,7 @@ Steps to get this music bot running within a docker container
 1.) log into target machine that has the docker daemon
 
 
-2.) run "git clone https://github.com/rapiddd/musicbotDocker" in your terminal
+2.) download the project using git in your terminal
 
     git clone https://github.com/rapiddd/musicbotDocker
 
