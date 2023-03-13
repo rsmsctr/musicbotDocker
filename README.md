@@ -1,5 +1,6 @@
 # musicbotDocker
-MusicBot created by jagrosh - dockerfile + empty config
+MusicBot created by jagrosh + dockerfile + empty config.
+
 This is my first docker container project, however it should work for you as well if you follow the steps. The base image may not be the most efficient but it contains the necessary dependencies.
 
 HUGE THANKS TO JAGROSH FOR MAKING THIS SICK APP!
