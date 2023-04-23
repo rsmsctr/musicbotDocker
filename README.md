@@ -37,47 +37,30 @@ Current the only environmental variables that the container supports is the toke
 
 
 
-# Build it yourself!
-MusicBot created by jagrosh + dockerfile + empty config.
+# Build the Docker Container
+MusicBot created by jagrosh - https://github.com/jagrosh/MusicBot
 
 This is my first docker container project, however it should work for you as well if you follow the steps. The base image may not be the most efficient but it contains the necessary dependencies.
 
-HUGE THANKS TO JAGROSH FOR MAKING THIS SICK APP!
+How to build the container for yourself:
 
-https://github.com/jagrosh/MusicBot
+1.) Log into target machine that has the docker daemon
 
-Steps to get this music bot running within a docker container
-
-1.) log into target machine that has the docker daemon
-
-
-2.) download the project using git in your terminal
+2.) Clone this repository to the machine
 
     git clone https://github.com/rsmsctr/musicbotDocker
 
+3.) Navigate to the directory that containers the Dockerfile 
 
-3.) CD to the directory of the project you just downloaded 
+4.) Modify the config_template.txt file if you so desire
 
+4.) Once the config file is modified and saved, build an image
 
-4.) edit the config file with your favorite text editor and enter in your bot token and your user ID
+    docker build -t <imagename> .
 
-to create your bot and find its token please follow the instructions jagrosh created here
+5.) Run the container using the image you just built
 
-   https://jmusicbot.com/getting-a-bot-token/
-        
-to find your user ID please follow the instructions jagrosh created here
-
-   https://jmusicbot.com/finding-your-user-id/
-    
-    
-5.) once the config file is modified and saved, build an image
-
-    docker build -t imagename .
-
-
-6.) build a container using the image
-
-    docker run -d imagename
+    docker run -d -e token=<token> -e owner=<ownerID> -e prefix=<prefixpreference> <imagename>
 
 
 That's it! The container is now running the application. No ports are needed as it needs no inbound traffic.
