@@ -15,7 +15,7 @@ https://jmusicbot.com/finding-your-user-id/
     -e prefix=! \
     rsmsctr/musicbot
 
-Current the only environmental variables that the container supports is the token, owner, and prefix. If you would like to change more of the variables you can build the container yourself with the instructions provided below.
+Currently the only environmental variables that the container supports is the token, owner, and prefix. If you would like to change more of the variables you can build the container yourself with the instructions provided below.
 
 
 
