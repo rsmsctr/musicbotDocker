@@ -1,4 +1,43 @@
-# musicbotDocker
+# Run the Docker Container
+
+Get your token:
+
+https://jmusicbot.com/getting-a-bot-token/
+
+Get your user ID:
+
+https://jmusicbot.com/finding-your-user-id/
+
+    docker run -d \
+    --name=musicbot \
+    -e token=<token> \
+    -e owner=<ownerid> \
+    -e prefix=! \
+    rsmsctr/musicbot
+
+Current the only environmental variables that the container supports is the token, owner, and prefix. If you would like to change more of the variables you can build the container yourself with the instructions provided below.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Build it yourself!
 MusicBot created by jagrosh + dockerfile + empty config.
 
 This is my first docker container project, however it should work for you as well if you follow the steps. The base image may not be the most efficient but it contains the necessary dependencies.
