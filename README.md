@@ -17,6 +17,10 @@ https://jmusicbot.com/finding-your-user-id/
 
 Currently the only environmental variables that the container supports is the token, owner, and prefix. If you would like to change more of the variables you can build the container yourself with the instructions provided below.
 
+Add your bot:
+
+https://jmusicbot.com/adding-your-bot/
+
 
 
 
